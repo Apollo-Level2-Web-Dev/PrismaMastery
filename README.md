@@ -15,3 +15,11 @@ This course is designed to help you master Prisma, an essential tool for modern 
 | Create project setup | [https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-typescript-postgresql](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-typescript-postgresql) |
 | Logging | [https://www.prisma.io/docs/orm/prisma-client/observability-and-logging/logging](https://www.prisma.io/docs/orm/prisma-client/observability-and-logging/logging) |
 | Relation Queries | [https://www.prisma.io/docs/orm/prisma-client/queries/relation-queries](https://www.prisma.io/docs/orm/prisma-client/queries/relation-queries) |
+| Aggregation, grouping, and summarizing | [https://www.prisma.io/docs/orm/prisma-client/queries/aggregation-grouping-summarizing](https://www.prisma.io/docs/orm/prisma-client/queries/aggregation-grouping-summarizing) |
+| Transactions and batch queries | [https://www.prisma.io/docs/orm/prisma-client/queries/transactions](https://www.prisma.io/docs/orm/prisma-client/queries/transactions) |
+| Raw queries | [https://www.prisma.io/docs/orm/prisma-client/queries/raw-database-access/raw-queries](https://www.prisma.io/docs/orm/prisma-client/queries/raw-database-access/raw-queries) |
+| Prisma Playground | [https://playground.prisma.io/](https://playground.prisma.io/) |
+
+
+
+*Happy learning, and welcome to the world of Prisma!*

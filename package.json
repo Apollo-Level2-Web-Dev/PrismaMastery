@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/pagination-sorting.ts"
+    "dev": "ts-node-dev --respawn --transpile-only src/logging.ts"
   },
   "devDependencies": {
     "@types/node": "^20.11.24",

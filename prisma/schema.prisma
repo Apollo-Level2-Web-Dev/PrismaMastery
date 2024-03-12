@@ -13,10 +13,10 @@ model Post {
   content      String
   published    Boolean        @default(false)
   authorId     Int
-  author       User           @relation(fields: [authorId], references: [id])
   createdAt    DateTime       @default(now())
   updatedAt    DateTime       @updatedAt
   postCategory PostCategory[]
+  author       User           @relation(fields: [authorId], references: [id])
 
   @@map("posts")
 }
@@ -26,8 +26,9 @@ model User {
   username String   @unique
   email    String
   role     UserRole @default(user)
-  profile  Profile? // one to one relation
-  post     Post[] // one to many relation
+  age      Int      @default(0)
+  post     Post[]
+  profile  Profile?
 
   @@map("users")
 }
@@ -50,11 +51,10 @@ model Category {
 }
 
 model PostCategory {
-  postId Int
-  post   Post @relation(fields: [postId], references: [id])
-
+  postId     Int
   categoryId Int
   category   Category @relation(fields: [categoryId], references: [id])
+  post       Post     @relation(fields: [postId], references: [id])
 
   @@id([postId, categoryId])
   @@map("post_category")
